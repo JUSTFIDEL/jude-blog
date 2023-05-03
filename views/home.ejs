@@ -3,7 +3,7 @@
 <h1>Home</h1>
 <p><%= homeStartingContent %></p>
 
-<% posts.forEach(function (post) { %>
+<% posts.forEach((post) => { %>
 
 <h1><%= post.title %></h1>
 <p>
@@ -11,4 +11,7 @@
 	<a href="/posts/<%=post._id%>">Read More</a>
 </p>
 
-<% }) %> <%- include('partials/footer') -%>
+<% }) %> 
+
+
+<%- include('partials/footer') -%>
