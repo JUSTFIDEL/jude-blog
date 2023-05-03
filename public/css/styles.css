@@ -7,6 +7,10 @@ body {
 	padding-bottom: 70px;
 }
 
+.navbar-brand {
+	color: #285430;
+}
+
 .navbar {
 	padding-top: 15px;
 	padding-bottom: 15px;
